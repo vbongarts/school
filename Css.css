@@ -16,7 +16,7 @@ body{
 	font-family: arial, helvetica, sans-serif;
 	font-size: 14px;
 }	
-h1{ {
+h1{
 	font-size:2em;
 }
 h2 {
@@ -25,7 +25,6 @@ h2 {
 a{
 	text-decoration:none;
 }
-
 strong{
 	font-style: italic;
 	text-transform: uppercase;
@@ -35,4 +34,3 @@ p {
 	word-spacing: 2em;
 	line-height: 1.5;
 	text-align: center;
-}
