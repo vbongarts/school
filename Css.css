@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+	<title>My first web page</title>
+	<link rel="stylesteet" href="style.css">
+</head>
+...	
+body {
+	font-size: 14px;
+	color: navy;
+}	
+h1{
+	color: #ffc;
+	background-color: #009;
+}	
+body{
+	font-family: arial, helvetica, sans-serif;
+	font-size: 14px;
+}	
+h1{ {
+	font-size:2em;
+}
+h2 {
+	font-size: 1.5em;
+}
+a{
+	text-decoration:none;
+}
+
+strong{
+	font-style: italic;
+	text-transform: uppercase;
+}
+p {
+	letter-spacing: 0.5em;
+	word-spacing: 2em;
+	line-height: 1.5;
+	text-align: center;
+}
