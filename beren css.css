@@ -17,7 +17,7 @@ body{
 	background-repeat:no-repeat;
 	background-size:cover;
 	background-position:center -60px;
-	padding: 100px 20px 0px 20px;
+	padding: 100px 20px 100px 20px;
 }
 
 .main-nav a{
@@ -45,7 +45,7 @@ h1{
 	background-color: #b68052;
 	margin: 20px;
 	padding: 10px 20px;
-	color: aliceblue;
+	color: alicblue;
 }
 
 h2{
