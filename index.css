@@ -7,7 +7,7 @@ body{
 .page {
 	margin: 60px;
 	border: 2px solid black;
-	border-radius: 15px;
+	border-radius: 25px;
 	background-color: white;
 	overflow: hidden;
 }
@@ -22,7 +22,7 @@ body{
 
 .main-nav a{
 	display:inline-block;
-	border-radius: 5px 0px 0px 0px;
+	border-radius: 5px 5px 5px 0px;
 	border-bottom: 10px solid white;
 	background-color:rgba(255, 255, 255, 0.64);
 	color:black;
@@ -34,7 +34,7 @@ body{
 }
 
 .main-nav a:hover{
-	top:95px;
+	top:100px;
 }
 
 .page-content{
@@ -58,7 +58,7 @@ h2{
 
 .top-nav ul li{
 	transition: all 300ms ease;
-	left:0px;
+	left:25px;
 	position:relative;
 }
 
