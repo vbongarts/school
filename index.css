@@ -6,7 +6,7 @@ body{
 
 .page {
 	margin: 70px;
-	border: 5px ;
+	border: 5px solid black ;
 	border-radius: 25px;
 	background-color:white;
 	overflow: hidden;
