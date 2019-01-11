@@ -3,7 +3,7 @@ body{
 	background-color: #f3f3f3;
 	padding:0;
 	margin:0;
-	background-image:url(https://wallpaperplay.com/walls/full/6/6/2/83593.jpg);
+	background-image:url (https://media.comicbook.com/2018/07/back-to-the-future-trilogy-1122951-1280x0.jpeg);
 	background-attachment:fixed;
 }
 
@@ -23,7 +23,7 @@ body{
 
 .main-nav a{
 	display:inline-block;
-	border-radius: 0px 0px 5px 5px;
+	border-radius: 20px 20px 5px 5px;
 	border-bottom: 10px solid white;
 	         background-color:rgba(255, 255, 255, 0.64);
 	color:black;
