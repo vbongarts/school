@@ -68,3 +68,14 @@ h3{
 .top-nav ul li:hover{
 	left: 4px;
 }
+
+@media screen {
+
+    body { font: 12px arial, sans-serif }
+    #nav { display: block }
+
+}
+iframe {
+  max-width: 700px;
+  width: 100%;
+}  

@@ -3,6 +3,7 @@
 	<head>
 		<title>ICT in de zorg-Contact</title>
     <link rel="stylesheet" href="contact.css">
+    <link type="image/x-icon" rel="icon" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAfUlEQVQ4T2P8////fwYKAOPAG6B0fBncC3ctIhmUTyyHe4gYPtwLII0wDcTQMFvABsA0MzIyMoJcBDPgnmUUmA9TjGwwhgEgxciGgQxFNgCkGQTQvYiiCaYA3Qswg7B5De5kmJOwhQVBA9D9iM3PyAYjyw+ChDTwSXnAXQAAcgq00WTrlo0AAAAASUVORK5CYII=" id="page_favicon">
 	</head>
 
 	<body>
@@ -15,6 +16,38 @@
       <a href="Contact.html">Contact</a>
 		</nav>
 		<div class="page-content">
-			<h1>ICT in de zorg</h1>
+			<h1>Contact</h1>
 			<nav class="top-nav">
-	
+		<p class="overons">
+Als u een vraag heeft kunt u ons bereiken op het nummer: 06 42771755. </br>
+U kunt ons ook een bericht sturen met behulp van het onderstaande formulier.
+</p>
+<h3>Formulier</h3>
+<hr />
+<fieldset>
+  
+<form action="gestuurd.php">
+  <label><b>Voornaam</b></label>
+<input type="text" name="firstname" placeholder="Uw voornaam.." maxlength="20" class="sturen" required><br></br>
+<label><b>Achternaam</b></label>
+  <input type="text" name="lastname" placeholder="Uw achternaam.." maxlength="40" class="sturen" required><br></br>
+<label><b>Emailadres</b></label>
+<input type="email" pattern="[^ @]*@[^ @]*" name="email" placeholder="Uw email.." class="sturen" required>
+<p>
+  
+  </p>
+<label><b>Land</b></label><br>
+<select id="country" name="land" class="invullen">
+<option value="Nederland">Nederland</option>
+<option value="België">België</option>
+<option value="Vs">Verenigde Staten</option>
+<option value="England">England</option>
+<option value="Anders">Anders</option>
+</select><br />
+<br />
+<label><b>Probleem</b></label>
+<textarea id="subject" name="subject" placeholder="Schrijf iets.." style="height:20px"class="sturen" required></textarea>
+<input type="submit" value="Verzenden" class="buttons">
+</form>
+</fieldset>
+</div>
