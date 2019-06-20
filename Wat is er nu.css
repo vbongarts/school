@@ -5,7 +5,7 @@ body{
 }  
 .page {
 	margin: 7px;
-	border: 0,5px solid black ;
+	border: 5px solid black ;
 	border-radius: 25px;
 	background-color:#E0FFFF;
 	overflow: hidden;
